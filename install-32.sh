@@ -19,7 +19,7 @@ EOL
 systemctl enable btattach
 
 # Install Sound
-wget http://x205ta.myftp.org:1337/kernel/kernel-sound-32bit.tar
-tar xf kernel-sound-32bit.tar
+wget https://sourceforge.net/projects/distros-x205ta/files/kernel/kernel-32bit-sound.tar/download
+tar xf kernel-32bit-sound.tar
 sudo ./install-sound-kernel.sh -v 
 sudo apt install pavucontrol
