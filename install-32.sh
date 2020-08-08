@@ -19,7 +19,7 @@ EOL
 systemctl enable btattach
 
 # Install Sound
-wget https://sourceforge.net/projects/distros-x205ta/files/kernel/kernel-32bit-sound.tar/download
-tar xf kernel-32bit-sound.tar
+wget https://github.com/josetg01/ASUS-X205TA/raw/master/Drivers/Audio/kernel-32bit-5.3.7-sound-43.tar
+tar xf kernel-32bit-5.3.7-sound-43.tar
 sudo ./install-sound-kernel.sh -v 
 sudo apt install pavucontrol
